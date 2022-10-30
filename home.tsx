@@ -46,7 +46,7 @@ export default function Home() {
       <View style={HomeScreenStyle.container}>
         <View>
           <Text style={HomeScreenStyle.titleText}>
-            Keep an Eye on Your Cryptos ...
+            Keep an Eye on Your Cryptos
           </Text>
         </View>
         <StatusBar style="light" />
@@ -103,7 +103,7 @@ export default function Home() {
                   </VictoryChart>
                 </View>
               ) : (
-                <Text> Selecione Uma Moeda</Text>
+                null// Não retorna nada caso o modal demore a abrir
               )}
             </LinearGradient>
           </View>
